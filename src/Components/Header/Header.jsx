@@ -13,7 +13,7 @@ function Header() {
           <li className='' ><Link className='inline-block hover:scale-105 hover:text-orange-950' to="/">Home</Link></li>
           <li className='' ><Link className='inline-block hover:scale-105 hover:text-orange-950' to="about">About</Link></li>
           <li className='' ><Link className='inline-block hover:scale-105 hover:text-orange-950' to="skills">Skill</Link></li>
-          <li className='' ><Link className='inline-block hover:scale-105 hover:text-orange-950' to="#">Project</Link></li>
+          <li className='' ><Link className='inline-block hover:scale-105 hover:text-orange-950' to="project">Project</Link></li>
           <li className='' ><Link className='inline-block hover:scale-105 hover:text-orange-950' to="contact">Contact</Link></li>
         </ul>
       </nav>

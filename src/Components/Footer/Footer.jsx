@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer className='grid grid-cols-1 px-5 py-5 bg-gradient-to-b from-white to-orange-400 md:grid-cols-2'>
+    <footer className='grid grid-cols-1 w-full px-5 py-5 bg-gradient-to-b from-white to-orange-400 md:grid-cols-2 align-text-bottom bottom-0'>
       <div className='order-2 flex flex-col justify-center items-center md:order-1'>
         <div className=''>
           <a className='font-bold text-xl md:text-2xl' href="#">&lt;/&gt; Shivam's Portfolio</a>

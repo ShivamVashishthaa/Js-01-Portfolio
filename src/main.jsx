@@ -7,6 +7,7 @@ import Hero_Section from './Components/Body/Hero_Section.jsx'
 import About from './Components/Body/About.jsx'
 import Skills from './Components/Body/Skills.jsx'
 import Contact from './Components/Body/Contact.jsx'
+import Projects from './Components/Body/Projects.jsx'
 
 
 const route = createBrowserRouter(
@@ -16,6 +17,7 @@ const route = createBrowserRouter(
       <Route path='about' element={<About/>}/>
       <Route path='skills' element={<Skills/>}/>
       <Route path='contact' element={<Contact/>}/>
+      <Route path='project' element={<Projects/>}/>
     </Route>
   )
 )
