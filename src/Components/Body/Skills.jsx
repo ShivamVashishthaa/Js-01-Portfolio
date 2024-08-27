@@ -51,7 +51,7 @@ function Skills() {
             <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>Microservices</p>
             <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>TDD</p>
             <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>MVC</p>
-            <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>Solid Principles</p>
+            <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>SOLID Principles</p>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ function Skills() {
             <h3 className='font-bold text-lg hover:scale-125 transition-all ease-linear duration-100'>Tools -</h3>
             <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>Git</p>
             <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>IntelliJ</p>
-            <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>Vs Code</p>
+            <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>VsCode</p>
             <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>Postman</p>
             <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>Java</p>
           </div>

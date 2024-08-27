@@ -10,9 +10,9 @@ function Footer() {
         </div>
         <div className=''>
           <ul className='flex gap-5 justify-center items-center '>
-            <li><Link to="#"><i className="fa-brands fa-github-alt transition-all linear duration-200 ease-linear hover:scale-150 hover:rotate-[360deg] "></i></Link></li>
-            <li><Link to="#"><i className="fa-brands fa-linkedin transition-all linear duration-200 ease-linear hover:scale-150 hover:rotate-[360deg] "></i></Link></li>
-            <li><Link to="#"><i className="fa-solid fa-g transition-all linear duration-200 ease-linear hover:scale-150 hover:rotate-[360deg]"></i></Link></li>
+            <li><Link to="https://github.com/ShivamVashishthaa" target="_blank"><i className="fa-brands fa-github-alt transition-all linear duration-200 ease-linear hover:scale-150 hover:rotate-[360deg] "></i></Link></li>
+            <li><Link to="https://linkedin.com/in/shivamvashishtha1" target="_blank"><i className="fa-brands fa-linkedin transition-all linear duration-200 ease-linear hover:scale-150 hover:rotate-[360deg] "></i></Link></li>
+            <li><Link to="https://github.com/ShivamVashishthaa" target="_blank"><i className="fa-solid fa-g transition-all linear duration-200 ease-linear hover:scale-150 hover:rotate-[360deg]"></i></Link></li>
           </ul>
         </div>
       </div>
