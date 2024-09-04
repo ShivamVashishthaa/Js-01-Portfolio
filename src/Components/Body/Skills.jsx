@@ -2,14 +2,12 @@ import React from 'react'
 
 function Skills() {
   return (
-    <section className='grid grid-cols-2 min-h-full gap-5 px-5 md:gap-4 md:px-16 md:grid-cols-3 lg:grid-cols-1 lg:px-24 lg:py-12'>
-      <div className='lg:grid lg:grid-cols-2 justify-items-center gap-4 '>
-        <div className='hidden md:block w-full h-auto lg:order-2 lg:flex lg:flex-col lg:justify-center lg:items-center'>
-          <figure>
-            <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto hover:rotate-[360deg] hover:scale-125 transition-all ease-linear duration-200' src="./assets/Front-end.jpg" alt="Font-End" />
-          </figure>
-        </div>
-        <div className='lg:order-1'>
+    <section className='grid grid-cols-2 min-h-full gap-5 px-5 md:gap-4 md:px-16 md:grid-cols-3 lg:grid-cols-1 lg:px-24 lg:py-12 lg:justify-items-center '>
+      <div className=' border rounded-xl hover:bg-orange-50 hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
+        {/* <div className='hidden md:block w-full h-auto lg:order-2 lg:flex lg:flex-col lg:justify-center lg:items-center'> */}
+            <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto lg:order-2' src="./assets/Front-end.jpg" alt="Font-End" />
+        {/* </div> */}
+        <div className='lg:order-1 '>
           <div className='p-5 flex flex-col justify-center items-center'>
             <h3 className='font-bold text-lg hover:scale-125 transition-all ease-linear duration-100'>Front-End -</h3>
             <p className='font-medium hover:scale-125 transition-all ease-linear duration-100'>HTML</p>
@@ -21,10 +19,10 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className='lg:grid lg:grid-cols-2 justify-items-center '>
-        <div className='hidden md:block w-full h-auto lg:order-1 lg:flex lg:flex-col lg:justify-center lg:items-center'>
+      <div className=' border rounded-xl hover:bg-orange-50 hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
+      <div className='hidden md:block w-full h-auto lg:order-2 lg:flex lg:flex-col lg:justify-center lg:items-center'>
           <figure>
-            <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto hover:rotate-[360deg] hover:scale-125 transition-all ease-linear duration-200' src="./assets/backend.jpg" alt="Back-End" />
+           <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto' src="./assets/Front-end.jpg" alt="Back-End" />
           </figure>
         </div>
         <div className='lg:order-2'>
@@ -38,10 +36,10 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className='lg:grid lg:grid-cols-2 justify-items-center '>
+      <div className=' border rounded-xl hover:bg-orange-50 hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
         <div className='hidden md:block w-full h-auto lg: order-2 lg:flex lg:flex-col lg:justify-center lg:items-center'>
           <figure>
-            <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto hover:rotate-[360deg] hover:scale-125 transition-all ease-linear duration-200' src="./assets/Methodology.jpeg" alt="Back-End" />
+          <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto' src="./assets/Front-end.jpg" alt="Methodologies" />
           </figure>
         </div>
         <div className='lg:order-1'>
@@ -55,10 +53,10 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className='lg:grid lg:grid-cols-2 justify-items-center '>
+      <div className=' border rounded-xl hover:bg-orange-50 hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
         <div className='hidden md:block w-full h-auto lg: order-1 lg:flex lg:flex-col lg:justify-center lg:items-center'>
           <figure>
-            <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto hover:rotate-[360deg] hover:scale-125 transition-all ease-linear duration-200' src="./assets/tools.jpg" alt="Back-End" />
+          <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto' src="./assets/Front-end.jpg" alt="Tools" />
           </figure>
         </div>
         <div className='lg:order-2'>
