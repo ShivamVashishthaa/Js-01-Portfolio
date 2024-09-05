@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer className='grid grid-cols-1 w-full px-5 py-5 bg-gradient-to-b from-white to-orange-400  md:grid-cols-2 align-text-bottom bottom-0'>
+    <>
+    <hr />
+    <footer className='grid grid-cols-1 w-full px-5 py-5 bg-gradient-to-b from-white to-orange-400  md:grid-cols-2 align-text-bottom bottom-0' id='footer'>
       <div className='order-2 flex flex-col justify-center items-center md:order-1'>
         <div className=''>
           <a className='font-bold text-xl md:text-2xl' href="#">&lt;/&gt; Shivam's Portfolio</a>
@@ -18,13 +20,14 @@ function Footer() {
       </div>
       <div className=' order-1 md:order-2' >
         <ul className='flex flex-col items-center font-semibold md:grid md:grid-cols-2'>
-          <li ><Link className='transition-all linear duration-100 ease-linear hover:scale-110 inline-block' to="https://github.com/ShivamVashishthaa">Git</Link></li>
-          <li ><Link className='transition-all linear duration-100 ease-linear hover:scale-110 inline-block' to="https://linkedin.com/in/shivamvashishtha1">LinkedIn</Link></li>
-          <li ><Link className='transition-all linear duration-100 ease-linear hover:scale-110 inline-block' to="about">About</Link></li>
-          <li ><Link className='transition-all linear duration-100 ease-linear hover:scale-110 inline-block' to="contact">Contact</Link></li>
+          <li ><Link className='transition-all linear duration-100 ease-linear hover:scale-110 inline-block hover:underline hover:underline-offset-4 decoration-2' to="https://github.com/ShivamVashishthaa">Git</Link></li>
+          <li ><Link className='transition-all linear duration-100 ease-linear hover:scale-110 inline-block hover:underline hover:underline-offset-4 decoration-2' to="https://linkedin.com/in/shivamvashishtha1">LinkedIn</Link></li>
+          <li ><Link className='transition-all linear duration-100 ease-linear hover:scale-110 inline-block hover:underline hover:underline-offset-4 decoration-2' to="about">About</Link></li>
+          <li ><Link className='transition-all linear duration-100 ease-linear hover:scale-110 inline-block hover:underline hover:underline-offset-4 decoration-2' to="contact">Contact</Link></li>
         </ul>
       </div>
     </footer>
+    </>
   )
 }
 

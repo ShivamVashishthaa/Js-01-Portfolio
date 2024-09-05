@@ -33,7 +33,7 @@ function Hero_Section() {
         <p className='leading-7 tracking-wide mt-2 md:text-xl overflow-y-auto'>
           A Full Stack Java Developer, Skilled in both front-end and back-end development, proficient in Java, Spring, SpringBoot and related frameworks. Can design, develop, and maintain complex web applications, ensuring seamless user experiences and robust server-side functionality. Expertise includes database management, RESTful APIs, and agile methodologies for delivering scalable solutions.
         </p>
-        <Link to="https://drive.google.com/uc?export=download&id=1JMmrvXsObBEPZ-NWPcsLMyassgB7UsNZ" className='inline-block bg-orange-400 rounded p-2 text-white hover:shadow-[0_0px_15px_2px_rgb(251,146,60)] hover:scale-110 transition-all duration-150 ease-linear  mt-4' >Download CV</Link>
+        <Link to="https://drive.google.com/uc?export=download&id=1JMmrvXsObBEPZ-NWPcsLMyassgB7UsNZ" className='inline-block rounded p-2 hover:shadow-[0_0px_15px_2px_rgb(251,146,60)] hover:scale-110 transition-all duration-150 ease-linear  mt-4 btn-cv' >Download CV</Link>
       </div>
       <div className='order-1 rounded-full w-52 h-auto md:w-72 lg:order-2'>
         <figure >

@@ -3,7 +3,7 @@ import React from 'react'
 function Skills() {
   return (
     <section className='grid grid-cols-2 min-h-full gap-5 px-5 md:gap-4 md:px-16 md:grid-cols-3 lg:grid-cols-1 lg:px-24 lg:py-12 lg:justify-items-center '>
-      <div className=' border rounded-xl hover:bg-orange-50 hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
+      <div className=' hover-change border rounded-xl hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
         {/* <div className='hidden md:block w-full h-auto lg:order-2 lg:flex lg:flex-col lg:justify-center lg:items-center'> */}
             <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto lg:order-2' src="./assets/Front-end.jpg" alt="Font-End" />
         {/* </div> */}
@@ -19,7 +19,7 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className=' border rounded-xl hover:bg-orange-50 hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
+      <div className=' hover-change border rounded-xl hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
       <div className='hidden md:block w-full h-auto lg:order-2 lg:flex lg:flex-col lg:justify-center lg:items-center'>
           <figure>
            <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto' src="./assets/Front-end.jpg" alt="Back-End" />
@@ -36,7 +36,7 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className=' border rounded-xl hover:bg-orange-50 hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
+      <div className=' hover-change border rounded-xl hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
         <div className='hidden md:block w-full h-auto lg: order-2 lg:flex lg:flex-col lg:justify-center lg:items-center'>
           <figure>
           <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto' src="./assets/Front-end.jpg" alt="Methodologies" />
@@ -53,7 +53,7 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className=' border rounded-xl hover:bg-orange-50 hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
+      <div className=' hover-change border rounded-xl hover:scale-105 transition-all duration-200 ease-linear lg:w-[58rem] lg:grid lg:grid-cols-2 lg:justify-items-center lg:gap-4'>
         <div className='hidden md:block w-full h-auto lg: order-1 lg:flex lg:flex-col lg:justify-center lg:items-center'>
           <figure>
           <img className='rounded-full w-48 h-32 lg:w-80 lg:h-auto' src="./assets/Front-end.jpg" alt="Tools" />

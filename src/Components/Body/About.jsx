@@ -5,14 +5,14 @@ function About() {
         <section className='flex flex-col gap-5 px-5 min-h-full md:px-16 lg:px-24 lg:py-12 '>
             <div className='' >
                 <h2 className='font-semibold text-xl mb-4'>Education -</h2>
-                <div className='border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100 md:flex md:justify-between'>
+                <div className='hover-change border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100 md:flex md:justify-between'>
                     <div>
                         <h3 className='font-medium text-lg'>MCA : Master of Computer Applications</h3>
                         <em className='text-gray-500'>College : IMS Ghaziabad</em>
                     </div>
                     <em className='text-gray-500'>2019-2021</em>
                 </div>
-                <div className='border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100 mt-5 md:flex md:justify-between'>
+                <div className='hover-change border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100 mt-5 md:flex md:justify-between'>
                     <div>
                         <h3 className='font-medium text-lg'>BCA : Bachelor of Computer Applications</h3>
                         <em className='text-gray-500'>College : I P College, Campus 2, Bulandshahr, U.P
@@ -24,7 +24,7 @@ function About() {
             <hr className='my-5' />
             <div>
                 <h2 className='font-semibold text-xl mb-4'>Working -</h2>
-                <div className='border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100' >
+                <div className='hover-change border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100' >
                     <h3 className='font-medium text-lg'>Infosys | <em className='text-gray-500 text-base font-normal'>	&#40; Hyderabad &#41;</em> | <em className='text-gray-500 text-sm font-normal'> &#40; Aug,2024 - Present &#41;</em></h3>
                     <em className='text-gray-500'>Senior System Engineer</em>
 
@@ -37,7 +37,7 @@ function About() {
                     </ul>
                 </div>
                 <hr className='my-9' />
-                <div className='border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100' >
+                <div className='hover-change border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100' >
                     <h3 className='font-medium text-lg'>Genpact | <em className='text-gray-500 text-base font-normal'>	&#40; Noida &#41;</em> | <em className='text-gray-500 text-sm font-normal'> &#40; Sept,2021 - Dec,2023 &#41;</em></h3>
                     <i className='text-gray-500'>Junior Java Developer</i>
                     <ul className='list-disc pl-7'>
@@ -66,11 +66,11 @@ function About() {
             <hr className='my-9' />
             <div>
                 <h2 className='font-semibold text-xl mb-4'>Certifications -</h2>
-                <div className='border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100'>
+                <div className='hover-change border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100'>
                     <h3 className='font-medium text-lg'><a href="">Master of SpringBoot 3.0</a></h3>
                     <i className='text-gray-500'>Source : Udemy</i>
                 </div>
-                <div className='mt-5 border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100'>
+                <div className='hover-change mt-5 border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100'>
                     <h3 className='font-medium text-lg'><a href="">Java Programming</a></h3>
                     <i className='text-gray-500'>Source : GreatLearning
                     </i>

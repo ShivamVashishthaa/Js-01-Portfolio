@@ -5,7 +5,7 @@ function Projects() {
     return (
         <section className='w-full h-auto px-5 md:gap-20 md:px-16 lg:px-24 lg:py-12'>
             <h2 className='text-xl font-bold md:text-2xl mb-3'>Projects -</h2>
-            <div className='flex flex-col justify-between gap-2 border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100  '>
+            <div className='hover-change flex flex-col justify-between gap-2 border rounded-xl p-5 hover:scale-[1.01] transition-all ease-linear duration-100  '>
                 <h3 className='text-lg font-semibold md:text-xl'><Link to="https://p-01-tailwind.vercel.app/" target="_blank">Website Front page</Link></h3>
                 <p className='text-base font-medium md:text-lg'>Technology used -</p>
                 <ul className='px-4 text-base'>
@@ -22,7 +22,7 @@ function Projects() {
             </div>
 
             <hr className='my-9' />
-            <div className='flex flex-col justify-between gap-2 border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100  '>
+            <div className='hover-change flex flex-col justify-between gap-2 border rounded-xl p-5 hover:scale-[1.01] transition-all ease-linear duration-100  '>
                 <h3 className='text-lg font-semibold md:text-xl'>project name</h3>
                 <p className='text-base font-medium md:text-lg'>Technology used -</p>
                 <ul className='px-4 text-base'>
@@ -37,7 +37,7 @@ function Projects() {
             </div>
             
             <hr className='my-9' />
-            <div className='flex flex-col justify-between gap-2 border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100  '>
+            <div className='hover-change flex flex-col justify-between gap-2 border rounded-xl p-5 hover:scale-[1.01] transition-all ease-linear duration-100  '>
                 <h3 className='text-lg font-semibold md:text-xl'>project name</h3>
                 <p className='text-base font-medium md:text-lg'>Technology used -</p>
                 <ul className='px-4 text-base'>
@@ -52,7 +52,7 @@ function Projects() {
             </div>
             
             <hr className='my-9' />
-            <div className='flex flex-col justify-between gap-2 border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100  '>
+            <div className='hover-change flex flex-col justify-between gap-2 border rounded-xl p-5 hover:scale-[1.01] transition-all ease-linear duration-100  '>
                 <h3 className='text-lg font-semibold md:text-xl'>project name</h3>
                 <p className='text-base font-medium md:text-lg'>Technology used -</p>
                 <ul className='px-4 text-base'>
@@ -67,7 +67,7 @@ function Projects() {
             </div>
             
             <hr className='my-9' />
-            <div className='flex flex-col justify-between gap-2 border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100  '>
+            <div className='hover-change flex flex-col justify-between gap-2 border rounded-xl p-5 hover:scale-[1.01] transition-all ease-linear duration-100  '>
                 <h3 className='text-lg font-semibold md:text-xl'>project name</h3>
                 <p className='text-base font-medium md:text-lg'>Technology used -</p>
                 <ul className='px-4 text-base'>
@@ -82,7 +82,7 @@ function Projects() {
             </div>
             
             <hr className='my-9' />
-            <div className='flex flex-col justify-between gap-2 border rounded-xl p-5 hover:bg-orange-50 hover:scale-[1.01] transition-all ease-linear duration-100  '>
+            <div className='hover-change flex flex-col justify-between gap-2 border rounded-xl p-5 hover:scale-[1.01] transition-all ease-linear duration-100  '>
                 <h3 className='text-lg font-semibold md:text-xl'>project name</h3>
                 <p className='text-base font-medium md:text-lg'>Technology used -</p>
                 <ul className='px-4 text-base'>

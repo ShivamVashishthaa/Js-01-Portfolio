@@ -8,6 +8,48 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary-color: #fff;
+    --secondary-color: #333;
+    --orange-color: #fb923c;
+}
+
+:root .dark-mode {
+    --primary-color: #333;
+    --secondary-color: #fff;
+}
+
+.dark-mode {
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color));
+    color: var(--secondary-color);
+
+    & .btn-cv {
+        color: var(--secondary-color);
+        border: 1px solid white;
+    }
+
+    & .hover-change:hover {
+        background-color: var(--primary-color);
+    }
+}
+
+.light-mode {
+    & .light-mode--header {
+        background-image: linear-gradient(to bottom, var(--orange-color), var(--primary-color));
+    }
+
+    & .btn-cv {
+        color: var(--orange-color);
+        background-color: var(--orange-color);
+        color: white;
+    }
+
+    & .hover-change:hover {
+        background-color: rgb(255 247 237);
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -23,4 +65,8 @@ h4,
 h5,
 h6 {
     font-family: 'Poppins'
+}
+
+.header {
+    height: 100vh;
 }
